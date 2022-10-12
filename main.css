@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.container{
+    max-width: 1200px;
+    margin-top: 150px;
+}
+header{
+    margin-bottom: 25px;
+}
+header h1{
+    text-transform: uppercase;
+}
+form{
+    margin-bottom: 30px;
+}
+input, button{
+    padding: 10px;
+}
+button{
+    background-color: blueviolet;
+    text-transform: uppercase;
+}
+ul{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
