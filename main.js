@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#testando').click(function() {
         $(this).css('text-decoration', 'line-through');    
     })
-    $(tarefaNova).click(function() {
+    $(tarefanova).click(function() {
         $(this).css('text-decoration', 'line-through');    
     })
 
