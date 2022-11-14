@@ -2,12 +2,7 @@ $(document).ready(function() {
     $('#btn-cadastro').click(function() {
         $('#lista-tarefas').slideDown();
     })
-    $('#testando').click(function() {
-        $(this).css('text-decoration', 'line-through');    
-    })
-    $(tarefanova).click(function() {
-        $(this).css('text-decoration', 'line-through');    
-    })
+
 
 
     $('form').on('submit', function(e) 
@@ -18,6 +13,9 @@ $(document).ready(function() {
         $(`<a href="#">${novaTarefa}</a>`).appendTo(tarefanova);
         $(tarefanova).appendTo('ul')
         $('#tarefa').val('');
+        $(tarefanova).click(function() {
+            $(this).css('text-decoration', 'line-through');    
+        })
         
     })
 })
